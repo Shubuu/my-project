@@ -1,22 +1,18 @@
 {
-  "name": "tea-manager",
+  "name": "my-project",
   "version": "1.0.0",
-  "description": "a simple manager for different tea",
-  "main": "index.js",
+  "description": "backend project with express",
   "type": "module",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
-  "keywords": [
-    "express",
-    "tea"
-  ],
-  "author": "hitesh choudhary",
+  "author": "Shubuu",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.6.1",
-    "express": "^4.21.2"
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
